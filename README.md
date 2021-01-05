@@ -76,3 +76,16 @@ TODO
 ----
 * testbench
 * parameter to control data width
+    
+WARNING
+----
+There could be some errors:
+* The transmitter fails to set the stop bit high.
+* The receiver is unstable because it does not sample in the middle of the clock interval.
+    
+For corrections and useful commits we will be grateful.   
+    
+More UART on Verilog: 
+----
+* https://github.com/nandland/nandland/tree/master/UART     
+
